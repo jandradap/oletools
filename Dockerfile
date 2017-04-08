@@ -13,7 +13,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 			org.label-schema.version=$VERSION \
 			org.label-schema.schema-version="1.0" \
 			maintainer="Jorge Andrada Prieto <jandradap@gmail.com>" \
-			org.label-schema.docker.cmd="docker run --rm -it --name oletools -v $(pwd):/srv jorgeandrada/oletools:latest"
+			org.label-schema.docker.cmd="docker run --rm -it --name oletools -v $(pwd):/srv jorgeandrada/oletools:latest sh"
 
 RUN pip install -U oletools
 

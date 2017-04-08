@@ -7,9 +7,9 @@ Docker image for: oletools - python tools to analyze MS OLE2 files (Structured S
 ## How-To
 Just type:
 ```shell
-docker run --rm -it --name oletools -v $(pwd):/srv:ro jorgeandrada/oletools:latest
+docker run --rm -it --name oletools -v $(pwd):/srv:ro jorgeandrada/oletools:latest sh
 ```
-and follow the commands CheatSheet
+and follow the CheatSheet commands
 
 ![CheatSheet](CheatSheet.jpg)
 
